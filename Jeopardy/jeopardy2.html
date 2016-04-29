@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Jeopardy-style</title>
+<style>
+.wrapper {
+	
+	margin:0 auto;
+}
+h1 span {
+	font-size:14px;
+	color:gray;
+}
+
+section h2 {
+	background-color:#2A3FAA;
+	color:white;
+	width:200px;
+	height:auto;
+	float:left;
+	padding: 10px;
+	border: 1px solid white;
+	text-align:center;
+	
+}
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine {
+	width:200px;
+	height:200px;
+	color:white;
+	position:relative;
+	float:left;
+	padding:10px;
+	background-color:#00F;
+	border:1px solid white;
+}
+.clr {
+	clear:both;
+	overflow:hidden;
+}
+section h1 {
+	font-size:48px;
+	line-height: 80px;
+	text-align:center;
+	cursor:pointer;
+}
+</style>
+<script type="text/javascript">
+   function  one() {
+	   var q1 = document.getElementById("oneh1");
+	   q1.style.display = "none";
+	   window.open("q1.html");
+   }
+    function two() {
+	  var q2 = document.getElementById("twoh1");
+	   q2.style.display = "none";
+	   window.open("q2.html");
+  }
+      function three() {
+	   var q3 = document.getElementById("threeh1");
+	   q3.style.display = "none";
+	   window.open("q3.html");
+  }
+      function four() {
+	   var q4 = document.getElementById("fourh1");
+	   q4.style.display = "none";
+	   window.open("q4.html");
+  }
+      function five() {
+	   var q5 = document.getElementById("fiveh1");
+	   q5.style.display = "none";
+	   window.open("q5.html");
+  }
+   
+   </script>
+</head>
+
+
+<div class="wrapper">
+<h1 style="font-size:48px;">Jeopardy Style Game <span> By: BoyetSol</span></h1>
+<p style="color:red;font-family:'Courier New', Courier, monospace;">Note: Please do not refresh the page while playing!</p>
+
+  <article>
+    <section>
+      <h2>History</h2>
+    </section> 
+    <section>
+      <h2>Animals</h2>
+    </section>
+     <section>
+      <h2>Video Games</h2>
+    </section>
+ </article>
+ <div class="clr"></div>
+ 
+ <article><!---------------------------start 1st row----------------------------->
+    <div class="clr"></div>    
+    <section id="one">
+      <h1 id="oneh1" onClick="one();">$100</h1>
+    </section>
+    
+    <section id="two">
+     <h1 id="twoh1" onClick="two();">$300</h1> 
+    </section>
+    
+    <section id="three">
+
+     <h1 id="threeh1"onClick="three();" >$400</h1>
+    </section>
+  </article>
+  <div class="clr"></div>
+  <article><!---------------------------start 2nd row-------------------------------->
+    <section id="four">   
+      <h1 id="fourh1" onClick="four();">$200</h1>
+    </section>
+    <section id="five">
+      <h1 id="fiveh1" onClick="five();">$600</h1>
+    </section>
+    <section id="six">
+
+     <h1 id="sixh1">$300</h1>
+    </section>
+  </article>
+ <div class="clr"></div>
+ 
+  <article><!--------------------------- start 3rd row------------------------------->
+    <section id="seven">
+        <h1 id="twoh1">$300</h1>
+    </section>
+    <section id="eight">
+        <h1 id="twoh1">$300</h1>
+    </section>
+    <section id="nine">
+        <h1 id="twoh1">$300</h1>
+    </section>
+  </article>
+<div class="clr"></div>
+</div><!--wrapper-->
+
+</body>
+</html>
